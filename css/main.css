@@ -1,0 +1,64 @@
+/*colores:
+botones, hover: #FF00BF
+nav blanco con letras azules y fondo de footer: #333447
+titulos form: #352384
+texto form: #728099
+gradiente morado: linear-gradient(#76278f, #2B1E66)
+
+*/
+*{	
+	margin: 0 auto;
+	padding: 0;	
+}
+body {	
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+}	
+
+.flex-container{
+	display : flex;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color:#FF00BF;
+}
+/*nav*/
+#navigator{
+	width: 100%;
+	background-color: black;
+	position: fixed;
+	justify-content: flex-end;
+}
+#navigator .flex-container{
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 40px;
+}
+.logo-blanco{
+	padding: 20px;
+}
+.hide{
+  display: none;
+}
+ul{
+	margin-left: 600px;
+}
+li{
+	display: inline-block;
+	margin-top: 20px;
+}
+.nav-menu{
+	display: inline-block;
+	color: white;
+	padding: 15px;
+}
+.borde-blanco{
+	padding: 10px 20px;
+	border: 1px solid white;
+	border-radius: 10%;
+}
