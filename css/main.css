@@ -6,38 +6,11 @@ texto form: #728099
 gradiente morado: linear-gradient(#76278f, #2B1E66)
 
 */
-*{	
-	margin: 0 auto;
-	padding: 0;	
-}
-body {	
-	width: 100%;
-	font-family: 'Montserrat', sans-serif;
-}	
-
-.flex-container{
-	display : flex;
-}
-ul{
-	list-style:none;
-}
-a{
-	text-decoration: none;
-}
-a:hover{
-	color:#FF00BF;
-}
 /*nav*/
 #navigator{
 	width: 100%;
-	background-color: black;
 	position: fixed;
-	justify-content: flex-end;
-}
-#navigator .flex-container{
-	justify-content: flex-end;
-	align-items: center;
-	margin-right: 40px;
+	text-align: center;
 }
 .logo-blanco{
 	padding: 20px;
@@ -45,12 +18,16 @@ a:hover{
 .hide{
   display: none;
 }
+/*ordenamiento lista*/
 ul{
 	margin-left: 600px;
 }
 li{
 	display: inline-block;
 	margin-top: 20px;
+}
+.flex-list-nav{
+	justify-content: flex-end;
 }
 .nav-menu{
 	display: inline-block;
@@ -61,4 +38,29 @@ li{
 	padding: 10px 20px;
 	border: 1px solid white;
 	border-radius: 10%;
+}
+/*main*/
+#main{
+	background: linear-gradient(#180F2D,#650E82);
+}
+#main .flex-main{
+	flex-direction: row;
+	justify-content: flex-end;
+}
+/*registro*/
+#registro{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	background-color: whitesmoke;
+}
+video{
+	width: 80%;
+}
+/*video y articulo*/
+/*footer*/
+footer  .flex-container {
+max-width: 95%;
+margin: 0 auto;
+justify-content: space-between;
 }
