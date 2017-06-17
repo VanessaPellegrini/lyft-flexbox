@@ -1,0 +1,53 @@
+/*colores:
+botones, hover: #FF00BF
+nav blanco con letras azules y fondo de footer: #333447
+titulos form: #352384
+texto form: #728099
+gradiente morado: linear-gradient(#76278f, #2B1E66)
+
+*/
+/*nav*/
+*{	
+	margin: 0 auto;
+	padding: 0;	
+}
+body {	
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+    background: -webkit-linear-gradient(rgba(27,15,48,1) 0%, rgba(39,16,62,1) 30%, rgba(75,16,100,1) 64%, rgba(90,14,118,1) 100%);
+    background: -o-linear-gradient(rgba(27,15,48,1) 0%, rgba(39,16,62,1) 30%, rgba(75,16,100,1) 64%, rgba(90,14,118,1) 100%);
+    background: linear-gradient(rgba(27,15,48,1) 0%, rgba(39,16,62,1) 30%, rgba(75,16,100,1) 64%, rgba(90,14,118,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b0f30', endColorstr='#5a0e76', GradientType=0 );
+    color: white;
+}
+/*nav*/
+div.lista-nav{
+	z-index: 10;
+}
+ul{
+	list-style:none;
+	margin-left: 195px;
+}
+a.nav-menu{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	font-size: 18px;
+}
+a.nav-menu:hover{
+	color:#FF00BF;
+}
+li{
+	padding: 20px;
+	display: inline-block;
+	margin-top: 20px;
+}
+a.nav-menu.borde-blanco{
+	border: 1px solid white;
+	border-radius: 5px;
+}
+/*video*/
+video{
+	width: 97%;
+	margin-top: -100px;
+}

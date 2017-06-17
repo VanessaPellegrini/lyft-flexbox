@@ -3,96 +3,49 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Lyft Flex</title>
-	<link rel="stylesheet" href="css/common.css">
-	<link rel="stylesheet" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/common.css">
+	<link rel="stylesheet" href="assets/css/main.css">
 	<script src="https://use.fontawesome.com/e81f3961b0.js"></script>
 </head>
 <body>
 	<!--header-->
-	<header id="header" class="flex-container">
+	<header id="header">
 		<!--nav-->
-		<nav id="navigator" class="flex-nav">
+		<nav id="navegador-id" class="navegador-class flex-container">
 		<!--logos-->
 			<div>
-				<img src="assets/images/logo-white.png" alt="logo-lyft" class="logo-blanco" width="70">
+				<div class="logo-class" id="logo-id">
+				</div>
 			</div>
-			<div>
-				<img src="" alt="" class="logo-rosa">
+			<div class="lista-nav">
+				<ul>
+					<li class="nav-lista">
+						<a href="#" class="nav-menu">Drive</a>
+					</li>
+					<li>
+						<a href="#" class="nav-menu">Explore<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+					</li>
+					<li>
+						<a href="#" class="nav-menu">Help</a>
+					</li>
+					<li>
+						<a href="#" class="nav-menu borde-blanco">Log in</a>
+					</li>
+				</ul>			
 			</div>
-			<ul class="flex-list-nav">
-				<li><a href="#" class="nav-menu">Drive</a></li>
-				<li><a href="#" class="nav-menu">Explore</a></li>
-				<li><a href="#" class="nav-menu">Help</a></li>
-				<li><a href="#" class="nav-menu borde-blanco">Log in</a></li>
-			</ul>
 		</nav>
 	</header>
 	<!--principal-->
 	<main id="main"  class="flex-container">
 		<!--video-->
 		<div class="video-hero">
-			<video src="assets/images/hero-video.mp4"></video>
+			<video src="assets/images/hero-video.mp4" type="video/mp4" autoplay muted loop >
+			</video>
 		</div>
-		<!--registro-->
-		<section id="registro" class="flex-container registro-flex">
-			<h2 class="registro-tittle">TURNS MILES IN TO MONEY</h2>
-			<h6 class="registro-subtitulo">SIGN UP TO DRIVE WITH LYFT</h6>
-			<form id="formulario" class="form">
-				<input type="text" maxlength="9" placeholder="Phone number">
-			</form>
-			<section>
-				<a href="#" class="become-a-driver">Become a driver</a>
-				<a href="#" class="sign-up-to-ride">Sign up to ride</a>
-			</section>
-			</ul>
-			<span>
-				<a href="#" class="already">Already applied? Check the status of your application here.</a>
-			</span>
-			<span>
-				<a href="#" class="earn-money">Earn money for inviting friends to drive. Learn more.</a>
-			</span>
-		</section>
-		<!--información-->
-		<section class="video-lyft-youtube flex-container">
-			<div class="video-youtube">
-				<video src="https://www.youtube.com/watch?v=fLSmUWOYpKw"></video>
-			</div>
-			<article>
-				<h5>
-					WATCH
-				</h5>
-				<h2>AMPLIFY YOUR RIDE</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, maiores. Tenetur modi alias, ad consectetur, ipsum consequatur nemo praesentium, officia distinctio odit eveniet deserunt corporis cupiditate at eos et minima.</p>
-			</article>
-		</section>	
 	</main>
-	<!--pie-->
-	<footer class="flex-container">
-			<section class="top">
-		<div class="flex-container">
-			<div class="left">
-				<h3><b>Lyft</b> A ride whenever you need one</h3>
-				<p>Lyft is a transportation network company based in San Francisco, California. It develops, markets and operates the Lyft car transportation mobile app.</p>
-			</div>
-			<div class="right">
-				<h3>Contact us!</h3>
-				<ul>
-					<li><a href="https://www.facebook.com/lyft/" title="Link1"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
-					<li><a href="https://twitter.com/asklyft" title="Link2"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
-					<li><a href="https://plus.google.com/+lyft" title="Link3"><i class="fa fa-google-plus" aria-hidden="true"></i> Google+</a></li>
-					<li><a href="https://www.instagram.com/lyft/" title="Link4"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section class="bottom">
-		<div class="flex-container">
-			<small class="left">&copy; 2017 Lyft & Laboratoria Inc.</small>
-		</div>
-	</section>
-	</footer>
-	<!--script-->
-	<script src="js/main.js"></script>
+	
+	
+	<script src="assets/js/main.js"></script>
 </body>
 </html>
