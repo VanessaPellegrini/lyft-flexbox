@@ -17,7 +17,6 @@ body {
     background: linear-gradient(to bottom, rgba(27,15,48,1) 0%, rgba(39,16,62,1) 30%, rgba(82,13,108,1) 72%, rgba(102,14,131,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b0f30', endColorstr='#660e83', GradientType=0 );
     color: white;
-    line-height: 1.71429;
 }
 .flex-container {
     display: flex;
@@ -192,4 +191,117 @@ h2{
 .col-img img{
 	height: 569px;
 	margin-top: 40px;
+}
+/*video*/
+.vid-global{
+	background-color: #fff;
+}
+.first-vid.flex-container, .second-vid.flex-container{
+	flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+.amplify-text{
+	position: relative;
+	box-sizing: inherit;
+	width: 400px;
+	background-color: #fff;
+	padding: 100px 40px;
+	font-size: 1.1em;
+	color: #000;
+}
+.showing{
+	position: relative;
+	box-sizing: inherit;
+	background-color: #fff ;
+	padding: 100px 40px;
+	font-size: 1.1em;
+	color: #000;
+}
+/*footer*/
+.footer.flex-container{
+	background-color: #333447;
+	color: white;
+	padding: 50px 64px 30px;
+	font-size: 14px;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.row.flex-container{
+	flex-direction: row;
+	padding-bottom: 60px;
+}
+
+.columna{
+	width: 300px;
+}
+
+.columna a{
+	text-decoration: none;
+	color: white;
+}
+
+.columna a:hover{
+	color: #FF00BF;
+	text-decoration: underline;
+}
+
+.store{
+	height: 50px;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+
+.store img{
+	width: 160px;
+	height: 100%;
+}
+
+.col-store{
+	text-align: right;
+	margin-left: auto;
+}
+
+.row-redes.flex-container{
+	flex-direction: column;
+}
+
+.redes-sociales.flex-container{
+	justify-content: center;
+	flex-direction: row;
+}
+
+.redes-sociales a{
+	border: 2px solid #fff;
+	border-radius: 50px;
+	height: 25px;
+	width: 25px;
+	text-align: center;
+	margin: 0 15px;
+}
+
+.social-icon{
+	color: white;
+	text-decoration: none;
+	text-align: center;	
+}
+
+hr{
+	width: 520px;
+	margin-top: 20px;
+}
+
+.copyright{
+	justify-content: center;
+}
+
+.copyright a{
+	color: white;
+	text-decoration: none;
+}
+
+.copyright a:hover{
+	color: #FF00BF;
+	text-decoration: underline;
 }
