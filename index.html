@@ -10,27 +10,27 @@
 </head>
 <body>
 	<!--header-->
-	<header id="header">
+	<header>
 		<!--nav-->
-		<nav id="navegador-id" class="navegador-class flex-container">
-		<!--logos-->
-			<div>
-				<div class="logo-class" id="logo-id">
-				</div>
-			</div>
+		<nav id="navegador" class="navegador-class flex-container">
+		<!--logo-->
+			<div class="logo-class" id="logo-id"></div>
 			<div class="lista-nav">
 				<ul>
 					<li class="nav-lista">
-						<a href="#" class="nav-menu">Drive</a>
+						<a href="#" class="nav-menu" id="drive">Drive</a>
 					</li>
 					<li>
-						<a href="#" class="nav-menu">Explore<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+						<a href="#" class="nav-menu" id="explore">Explore<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
 					</li>
 					<li>
-						<a href="#" class="nav-menu">Help</a>
+						<a href="#" class="nav-menu" id="help">Help</a>
 					</li>
 					<li>
-						<a href="#" class="nav-menu borde-blanco">Log in</a>
+						<a href="#" class="nav-menu borde-blanco" id="log">Log in</a>
+					</li>
+					<li>
+						<a href="#" class="nav-menu borde-rosa" id="sign">Sign up</a>
 					</li>
 				</ul>			
 			</div>
@@ -51,18 +51,40 @@
 				<div class="input">
 					<input type="text" maxlength="9" placeholder="Phone number" id="input-number">
 				</div>
+				<span class="hide cruz error-1" id="error-1" >
+					<img src="assets/images/error.png" width="30" alt="">
+				</span>
+				<!--funcionalidad-registro-->
+				<div class="input-ocultos gral-hide">
+					<input class="input-name mb-0" id="input-name" type="text" placeholder="First Name">
+					<span class="hide cruz error-2" id="error-2" >
+						<img src="assets/images/error.png" width="30" alt="">
+					</span>
+					</div>
+				<div class="input-ocultos hide">
+					<input class="input-email mb-0" id="input-email" type="text" placeholder="Email">
+					<span class="hide cruz error-3" id="error-3" >
+						<img src="assets/images/error.png" width="30" alt="">
+					</span>
+				</div>
+				<div class="input-ocultos hide">
+					<input class="input-city mb-0" id="input-city" type="text" placeholder="City">
+					<span class="hide cruz error-4" id="error-4" >
+						<img src="assets/images/error.png" width="30" alt="">
+					</span>
+				</div>
 			</form>
 			<div class="btn-a">
 				<button class="btn-driver-class" id="btn-driver">Become a Driver</button>
 				<a href="#" class="sign-up-to-ride">Sign up to ride</a>
 			</div>
 			</ul>
-			<span>
+			<small>
 				<a href="#" class="already">Already applied? Check the status of your application here.</a>
-			</span>
-			<span>
+			</small>
+			<small>
 				<a href="#" class="earn-money">Earn money for inviting friends to drive. Learn more.</a>
-			</span>
+			</small>
 		</section>
 	</main>
 	

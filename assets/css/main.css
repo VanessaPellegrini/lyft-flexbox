@@ -19,6 +19,19 @@ body {
     color: white;
 }
 /*nav*/
+nav#navegador.flex-container.fondo-blanco{
+	position: fixed;
+	width: 100%;
+	z-index: 20;
+}
+div.logo-class{
+	background-image: url(../images/logo-white.png);
+	background-repeat: no-repeat;
+    width: 70px;
+    background-size: 100%;
+    margin-top: 25px;
+    z-index: 15;
+}
 div.lista-nav{
 	z-index: 10;
 }
@@ -44,10 +57,49 @@ a.nav-menu.borde-blanco{
 	border: 1px solid white;
 	border-radius: 5px;
 }
+/*nav al bajar*/
+.fondo-blanco{
+	background-color: #fff;
+    transition: background-color .3s ease 0s;
+}
+div#logo-id.logo-class.logo-pink{
+	background-image: url(../images/logo-pink.png);
+	background-size: 100%;
+	z-index: 20;
+}
+a#drive.nav-menu.link-gris, a#explore.nav-menu.link-gris, a#help.nav-menu.link-gris{
+	color: #333447;
+	z-index: 20;
+}
+a#log.nav-menu.borde-gris{
+	border: 1px solid #999;
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: #333447;
+	z-index: 20;
+}
+a#sign.nav-menu.borde-rosa{
+	border: 1px solid transparent;
+    color: transparent;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+    
+a#sign.nav-menu.borde-rosa.sign-rosa{
+	border: 1px solid #FF00BF;
+	color: #FF00BF;
+	padding: 5px 10px;
+	border-radius: 5px;
+	z-index: 20;
+}
+.show{
+	display: inherit;
+}
 /*video*/
 video{
 	width: 97%;
 	margin-top: -100px;
+	z-index: -1;
 }
 /*registro*/
 section.flex-container.registro-caja{
@@ -74,7 +126,7 @@ h6.text-uppercase.mb-0.mt-0{
     font-weight: 400;
 }
 /*input*/
-input#input-number{
+input#input-number, .input-ocultos input{
     padding: 10px;
     margin: 10px;
     margin-left: -220px;
@@ -105,4 +157,9 @@ a.already, a.earn-money{
 }
 a.sign-up-to-ride{
 	padding-top: 25px;
+	text-decoration: none;
+}
+/*funcionalidad registro*/
+.gral-hide, .hide{
+	display: none;
 }
