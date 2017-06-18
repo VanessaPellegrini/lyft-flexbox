@@ -17,6 +17,10 @@ body {
     background: linear-gradient(to bottom, rgba(27,15,48,1) 0%, rgba(39,16,62,1) 30%, rgba(82,13,108,1) 72%, rgba(102,14,131,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b0f30', endColorstr='#660e83', GradientType=0 );
     color: white;
+    line-height: 1.71429;
+}
+.flex-container {
+    display: flex;
 }
 /*nav*/
 nav#navegador.flex-container.fondo-blanco{
@@ -162,4 +166,30 @@ a.sign-up-to-ride{
 /*funcionalidad registro*/
 .gral-hide, .hide{
 	display: none;
+}
+/*info*/
+#info{
+	background: linear-gradient(#76278f, #2B1E66);
+	margin-top: -8px;
+	padding: 70px 140px;
+}
+
+h2{
+	display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.col-text.flex-container{
+	flex-direction: column;
+    align-content: center;
+    width: 30%;
+    padding: 60px;
+}
+.col-img img{
+	height: 569px;
+	margin-top: 40px;
 }
